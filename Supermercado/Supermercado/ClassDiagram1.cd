@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ComposedProduct">
+    <Position X="5.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAgAAAAAAAAQ=</HashCode>
+      <FileName>ComposedProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FixedPriceProduct">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FixedPriceProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Invoice">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Product">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAgAAAEAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VariablePriceProduct">
+    <Position X="5.5" Y="3" Width="1.75" />
+    <InheritanceLine Type="Product" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="3.074" />
+        <Point X="4.25" Y="5.26" />
+        <Point X="5.2" Y="5.26" />
+        <Point X="5.2" Y="2.7" />
+        <Point X="6.521" Y="2.7" />
+        <Point X="6.521" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAQgAAAAAA=</HashCode>
+      <FileName>VariablePriceProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Supermercado.IPay">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
